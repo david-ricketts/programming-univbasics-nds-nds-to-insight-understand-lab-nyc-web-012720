@@ -17,4 +17,4 @@ while row_index < vm.length do
     column_index += 1
   end
 end
-end
+
