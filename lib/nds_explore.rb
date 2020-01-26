@@ -15,15 +15,7 @@ while row_index < vm.length do
 
   column_index = 0
   while column_index < vm[row_index].length do
-    coord = "#{row_index}, #{column_index}"
-    inner_len = vm[row_index][column_index].length
-    # Remember \t is a TAB character for indentation
-    puts "\tCoordinate [#{coord}] points to an #{vm[row_index][column_index].class} of length #{inner_len}"
-
-    inner_index = 0
-    while inner_index < inner_len do
-      puts "\t\t (#{coord}, #{inner_index}) is: #{vm[row_index][column_index][inner_index]}"
-      inner_index += 1
+    puts "\tCoordinate [#{coord}] points to an "
     end
 
     column_index += 1
