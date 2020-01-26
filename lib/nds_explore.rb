@@ -10,12 +10,10 @@ end
 def print_first_directors_movie_titles
   row_index = 0
 while row_index < vm.length do
-  puts "Row #{row_index} has #{vm[row_index]} columns"
-
-
   column_index = 0
+  directors = 
   while column_index < vm[row_index].length do
-    puts "\tCoordinate [#{coord}] points to an "
+    puts ""
     end
 
     column_index += 1
