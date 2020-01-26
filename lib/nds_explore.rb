@@ -11,9 +11,9 @@ def print_first_directors_movie_titles
   row_index = 0
 while row_index < vm.length do
   column_index = 0
-  spielberg = 
+  spielberg = directors_database[0][:movies] 
   while column_index < vm[row_index].length do
-    puts ""
+    puts spielberg[column_index]
     end
 
     column_index += 1
