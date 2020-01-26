@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   row_index = 0
 while row_index < vm.length do
   column_index = 0
-  directors = 
+  spielberg = 
   while column_index < vm[row_index].length do
     puts ""
     end
