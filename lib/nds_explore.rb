@@ -13,9 +13,7 @@ while row_index < vm.length do
   column_index = 0
   spielberg = directors_database[0][:movies] 
   while column_index < vm[row_index].length do
-    puts spielberg[column_index]
-    end
-
+    puts spielberg[column_index][:title]
     column_index += 1
   end
 end
